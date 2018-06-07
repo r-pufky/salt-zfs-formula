@@ -1,0 +1,8 @@
+zfs:
+  lookup:
+    packages:
+      - linux-generic
+      - build-essential
+      - spl-dkms
+      - zfs-dkms
+      - zfsutils-linux

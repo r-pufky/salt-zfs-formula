@@ -1,0 +1,3 @@
+{%- import_yaml "zfs/defaults.yaml" as defaults -%}
+
+{%- set zfs = salt['pillar.get']('zfs:lookup', defaults.zfs, merge=True) -%}

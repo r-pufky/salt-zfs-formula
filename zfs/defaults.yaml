@@ -1,0 +1,7 @@
+zfs:
+  packages:
+    - linux-generic
+    - build-essential
+    - spl-dkms
+    - zfs-dkms
+    - zfsutils-linux
